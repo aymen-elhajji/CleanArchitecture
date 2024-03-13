@@ -3,7 +3,7 @@
 
 namespace PostLand.Application.Features.Posts.Queries.GetPostDetail
 {
-    public class GetPostDetailQuery : IRequest<List<GetPostDetailViewModel>>
+    public class GetPostDetailQuery : IRequest<GetPostDetailViewModel>
     {
         public Guid PostId { get; set; }
     }

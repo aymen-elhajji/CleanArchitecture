@@ -16,7 +16,6 @@ namespace PostLand.Application.Features.Posts.Queries.GetPostsList
             _postRepository = postRepository;
             _mapper = mapper;
         }
-
         public async Task<List<GetPostsListViewModel>> Handle(GetPostsListQuery request, CancellationToken cancellationToken)
         {
             var allPosts = await _postRepository.GetAllPostsAsync(true);
