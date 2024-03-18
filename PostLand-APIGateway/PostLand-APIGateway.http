@@ -1,0 +1,6 @@
+@PostLand_APIGateway_HostAddress = http://localhost:5236
+
+GET {{PostLand_APIGateway_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
